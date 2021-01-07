@@ -1,6 +1,18 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { View } from 'react-native';
+import { View, StatusBar } from 'react-native';
 
-const App: React.FC = () => <View />;
+import Routes from './routes';
+
+const App: React.FC = () => (
+  <View style={{ flex: 1 }}>
+    <StatusBar
+      barStyle="light-content"
+      backgroundColor="transparent"
+      translucent
+    />
+    <Routes />
+  </View>
+);
 
 export default App;
