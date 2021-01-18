@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import Icon from 'react-native-vector-icons/Feather';
 import Home from '../pages/Home';
+import Saved from '../pages/Saved';
 
 const Tab = createBottomTabNavigator();
 
@@ -13,9 +14,11 @@ const TabRoutes: React.FC = () => (
       labelPosition: 'beside-icon',
       activeTintColor: '#FF6680',
       labelStyle: {
-        fontFamily: 'Poppins-Regular',
-        fontSize: 12,
-        fontWeight: '600',
+        fontFamily: 'System',
+        fontSize: 15,
+        fontWeight: '500',
+        fontStyle: 'normal',
+        lineHeight: 18,
       },
       inactiveTintColor: '#C4C4D1',
     }}
@@ -25,7 +28,7 @@ const TabRoutes: React.FC = () => (
         tabBarIcon: ({ color }) => <Icon size={25} name="home" color={color} />,
         title: 'Home',
       }}
-      name="DashboardStack"
+      name="Home"
       component={Home}
     />
     <Tab.Screen
@@ -33,10 +36,10 @@ const TabRoutes: React.FC = () => (
         tabBarIcon: ({ color }) => (
           <Icon size={25} name="heart" color={color} />
         ),
-        title: 'Home',
+        title: 'Salvos',
       }}
-      name="Save"
-      component={Home}
+      name="Saved"
+      component={Saved}
     />
   </Tab.Navigator>
 );

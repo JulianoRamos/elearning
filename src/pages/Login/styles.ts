@@ -27,7 +27,7 @@ export const Description = styled.Text`
   width: 217px;
   height: 75px;
 
-  font-family: 'Roboto';
+  font-family: 'System';
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -46,7 +46,7 @@ export const Button = styled(RectButton)`
 `;
 
 export const ButtonText = styled.Text`
-  font-family: Roboto;
+  font-family: System;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
