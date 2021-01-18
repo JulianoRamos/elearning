@@ -9,10 +9,10 @@ export const BackgroundImage = styled.ImageBackground`
 export const Container = styled.View``;
 
 export const Title = styled.Text`
-  width: 225px;
+  width: 250px;
   height: 86px;
 
-  font-family: 'Rubik';
+  font-family: 'Rubik-Regular';
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -46,7 +46,7 @@ export const Button = styled(RectButton)`
 `;
 
 export const ButtonText = styled.Text`
-  font-family: System;
+  font-family: Rubik;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;

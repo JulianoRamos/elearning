@@ -13,7 +13,7 @@ export const Container = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-family: Rubik;
+  font-family: Rubik-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
