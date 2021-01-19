@@ -46,7 +46,7 @@ export const Button = styled(RectButton)`
 `;
 
 export const ButtonText = styled.Text`
-  font-family: Rubik;
+  font-family: Rubik-Regular;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;

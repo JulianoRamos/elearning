@@ -29,7 +29,7 @@ export const Title = styled.Text`
 `;
 
 export const Courses = styled.Text`
-  font-family: Roboto;
+  font-family: System;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
